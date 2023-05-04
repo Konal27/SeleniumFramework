@@ -19,7 +19,7 @@ public class BaseClass {
 	  
 	  
 	  //This will access the properties file
-	  FileInputStream fis=new FileInputStream("C:\\Users\\dewan\\eclipse\\java-2023-03\\eclipse\\Maven\\src\\main\\java\\RESOURCES\\data.properties");
+	  FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\RESOURCES\\data.properties");
 	  
 	  //Read the file-
 	  
