@@ -1,6 +1,6 @@
 package RESOURCES;
 
-import java.io.FileInputStream;
+import java.io.FileInputStream; 
 import java.io.IOException;
 import java.util.Properties;
 
@@ -52,9 +52,9 @@ public class BaseClass {
 	  String url=prop.getProperty("url");
 	  driver.get(url);
 	 }
-	/* @AfterMethod
+	 @AfterMethod
 	 public void quitbrowser() {
 		 driver.quit();
 	 }
-	 */
+	 
 }
